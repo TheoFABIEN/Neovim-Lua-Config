@@ -67,6 +67,24 @@ require("lazy").setup({
         })
     end
   },
+
+
+-- nvim-repl for executing blocks of code
+
+  {
+    "pappasam/nvim-repl",
+    init = function()
+      vim.g["repl_filetype_commands"] = {
+        javascript = "node",
+        python = "ipython --no-autoindent"
+      }
+    end,
+    keys = {
+      { "<leader>t", "<cmd>ReplToggle<cr>", desc = "Toggle nvim-repl" },
+      { "<leader>r", "<cmd>ReplRunCell<cr>", desc = "nvim-repl run cell" },
+    },
+  },
+
 })
 
 
