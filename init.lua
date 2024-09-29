@@ -7,6 +7,9 @@ vim.opt.swapfile = false
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+-- split right for nvim-repl
+vim.opt.splitright = true
+
 require "keymaps"
 require "options"
 require "plugins.lazy"
