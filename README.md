@@ -1,11 +1,7 @@
-## Useful resources for setting up:
+## Resources
 
-### LSP: using lsp-zero
+- Setting up lsp-zero: https://lsp-zero.netlify.app/docs/tutorial.html
 
-This tutorial from the official doc is very useful: https://lsp-zero.netlify.app/docs/tutorial.html
+- Treesitter, how it works and how to configure: https://www.youtube.com/watch?v=kYXcxJxJVxQ&t=339s
 
-### Synthax highlighting: Using treesitter 
-
-See this tutorial: https://www.youtube.com/watch?v=kYXcxJxJVxQ&t=339s
-
-A C compiler is needed for treesitter. On windows I installed zig: run powershell as admin and execute choco install zig
+    Note: A C compiler is needed for treesitter. Using Windows, open powershell as admin and run choco install zig (easiest install)
