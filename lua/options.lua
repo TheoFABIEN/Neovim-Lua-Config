@@ -1,3 +1,6 @@
+-- remove color background displayed with nvim 0.10
+vim.cmd('highlight Normal guibg=NONE guifg=NONE ctermbg=NONE ctermfg=NONE')
+
 
 vim.opt.encoding = "utf-8" -- set encoding
 vim.opt.nu = true -- enable line numbers
@@ -20,3 +23,10 @@ vim.opt.termguicolors = true -- enable true color support
 
 vim.opt.scrolloff = 8 -- minimum number of lines to keep above and below the cursor
 vim.opt.sidescrolloff = 8 --minimum number of columns to keep above and below the cursor
+
+
+vim.opt.swapfile = false  -- disable swapfiles
+
+vim.opt.splitright = true -- split on the right side by default
+
+

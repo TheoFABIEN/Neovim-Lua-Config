@@ -80,8 +80,8 @@ require("lazy").setup({
       }
     end,
     keys = {
-      { "<leader>t", "<cmd>ReplToggle<cr>", desc = "Toggle nvim-repl" },
-      { "<leader>r", "<cmd>ReplRunCell<cr>", desc = "nvim-repl run cell" },
+      { "<leader>t", "<cmd>ReplToggle<cr>", desc = "Toggle nvim-repl" }, --toggle with leader key then t
+      { "<C-c>", "<cmd>ReplRunCell<cr>", desc = "nvim-repl run cell" },  -- run with CTRL+c
     },
   },
 
