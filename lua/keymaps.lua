@@ -1,6 +1,9 @@
 -- space bar leader key
 vim.g.mapleader = " "
 
+-- nvim-tree toggle
+vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<cr>")
+
 -- Navigate between splits
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-j>', '<C-w>j', {noremap = true, silent = true})
